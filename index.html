@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link rel="icon" type="image/x-icon" href="/images/Pepsico.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+
+                <ul class="nav navbar-nav">
+                    <li style="padding-top: 0;padding-right: 20px;"><a href="index.html"><img width="60" height="60"
+                                src="images/logoPepsico.png" alt="" id="logo-header"></a></li>
+                    <li class="active"><a href="index.html">Trang chủ</a></li>
+                    <li><a href="product.html">Sản phẩm</a></li>
+                    <li><a href="agent.html">Đại lý</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" data-toggle="modal" data-target="#myModal">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                            Mua Hàng
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Modal mở ra cho Login -->
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Đăng nhập/ Đăng ký
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs">
+
+                        <li class="active"><a data-toggle="tab" href="#dangNhap">Đăng nhập</a></li>
+                        <li><a data-toggle="tab" href="#dangKy">Đăng ký</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="dangNhap" class="tab-pane fade in active">
+                            <h3>Loading...</h3>
+                        </div>
+                        <div id="dangKy" class="tab-pane fade">
+                            <h3>Loading...</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- kết thúc phần Login -->
+
+    <article class="noidung1">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img width="100%" src="images/noidung1.png">
+                </div>
+
+                <div class="item">
+                    <img width="100%" src="images/noidung1.2.png">
+                </div>
+
+                <div class="item">
+                    <img width="100%" src="images/noidung1.1.jpg">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </article>
+    <article class="noidung2">
+        <div class="pepsi2">
+            <div class="trai">
+                <div class="thatwhat">
+                    <h1>THAT'S</h1>
+                    <h1>WHAT</h1>
+                    <h1>I LIKE</h1>
+                </div>
+            </div>
+
+
+            <div class="phai">
+                <img style="display: block;
+                max-width: 100%;
+                height: auto;
+                margin-top: 2em;" src="images/can-pepsi.png" alt="">
+            </div>
+
+        </div>
+        <br>
+    </article>
+    <article class="noidung3">
+        <div class="anh1">
+            <img width="100%" src="images/pepsicafeland-1468921797.png" alt="">
+        </div>
+        <div class="anh2">
+            <img width="100%" src="images/pepsicafeland-nguoi.png" alt="">
+        </div>
+        <div class="chu-nd3">
+            <div class="phantram1">
+                <h1>90%</h1>
+                <p>Chuyển hóa các chất trong cơ thể lành mạnh là một phần trong phong cách sống</p>
+            </div>
+            <div class="phantram2">
+                <h1>89%</h1>
+                <p>Sẵn sàng chi trả cao hơn cho các sản phẩm tốt cho sức khỏe</p>
+            </div>
+            <div class="phantram3">
+                <h1>89%</h1>
+                <p>Đặt niềm tin vào nhà sản xuất quen thuộc</p>
+            </div>
+        </div>
+    </article>
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="index.html"><img src="images/logoPepsico.png" alt="" id="logo-footer"></a>
+                </div>
+                <div class="col-md-6">
+                    <h3>Liên hệ</h3>
+                    <p><span class="glyphicon glyphicon-phone"></span>&nbsp;
+                        0332143234
+                    </p>
+                    <p><span class="glyphicon glyphicon-envelope"></span>&nbsp;
+                        voquyduc2003@gmail.com
+                    </p>
+                    <p><span class="glyphicon glyphicon-home"></span>&nbsp;
+                        Hòa Minh, Liên Chiểu, Đà Nẵng
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Theo dõi</h3>
+                    <p>
+                        <a href="https://www.facebook.com/profile.php?id=100028267640517">
+                            <ion-icon name="logo-facebook"></ion-icon>&nbsp;
+                            Facebook
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.instagram.com/Binn03">
+                            <ion-icon name="logo-instagram"></ion-icon>&nbsp;
+                            Instagram
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.youtube.com/">
+                            <ion-icon name="logo-youtube"></ion-icon>&nbsp;
+                            Youtube
+                        </a>
+                    </p>
+                </div>
+                <p style="padding-left: 40%;color: #cac5c5;">&copy; By Ducvqpd06941</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
