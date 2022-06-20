@@ -1,0 +1,144 @@
+/* CSS phần menu */
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+
+.navbar-inverse {
+    background-color: #0065c3;
+    border-color: transparent;
+}
+
+.navbar-nav {
+    margin-left: -30px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background: none;
+    color:#ffff6e;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #4192ee;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #4DB2EC;
+}
+
+.modal {
+    z-index: 9999;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    background-color: #0065c3;
+}
+
+/* kết thúc phần menu */
+
+/* CSS phần Footer */
+footer {
+    background-color: #0065c3;
+    padding: 10px 0;
+    color: #fff;
+}
+
+#logo-footer {
+    width: 145px;
+    margin-top: 10px;
+}
+
+.social {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.social:hover {
+    color: #4DB2EC;
+}
+
+/* kết thúc phần Footer */
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        margin-left: 0;
+    }
+
+    #logo-footer {
+        margin-top: 0;
+    }
+
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+    padding-top: 20px;
+}
+
+.navbar-right {
+    background-color: #0065c3;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-right {
+        background-color: #0065c3;
+        margin-top: 20px;
+        border-radius: 0;
+        border: 0;
+    }
+
+    #logo-footer {
+        margin-top: 0;
+        width: 100px;
+        display: none;
+    }
+    
+}
+
+.navbar-right:hover {
+    background-color: white;
+}
+
+.navbar-right li {
+    padding-top: 0;
+}
+
+.col-md-3 p>a {
+    text-decoration: none;
+    color: white;
+}
+
+.col-md-3 p>a:hover {
+    color: yellow;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+}
+
+@media (min-width: 768px){
+    .navbar-nav>li>a {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}

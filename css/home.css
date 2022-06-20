@@ -1,0 +1,160 @@
+
+.noidung2 {
+    background-image: url(../images/nen.jpg);
+}
+
+.pepsi2 {
+    display: flex;
+}
+
+.pepsi2 .trai {
+    width: 65%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.pepsi2 .trai h1 {
+    font-size: 110px;
+    font-weight: 800;
+    font-family: tahoma;
+    color: white;
+}
+
+
+.pepsi2 .phai {
+    width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+    .pepsi2 .trai h1 {
+        font-size: 40px;
+        font-weight: 800;
+        font-family: tahoma;
+        color: white;
+    }
+    .pepsi2 .trai {
+        width: 65%;
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+
+.noidung3{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 20px 0;
+}
+
+.noidung3 .anh1{
+    width: 39%;
+    margin-left: 50px;
+}
+.noidung3 .anh2{
+    width: 18%;
+    margin-left: 170px;
+}
+
+.noidung3 .chu-nd3{
+    width: 25%;
+    margin-left: 15px;
+}
+
+.phantram1{
+    padding-top: 40px;
+}
+.phantram2{
+    padding-top: 41px;
+}
+.phantram3{
+    padding-top: 43px;
+}
+
+.phantram1 h1{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.phantram1 p{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.phantram2 h1{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.phantram2 p{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.phantram3 h1{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.phantram3 p{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .noidung3 .anh1{
+        width: 100%;
+    }
+    .noidung3 .anh2{
+        width: 54%;
+        margin-left: 0;
+    }
+    
+    .noidung3 .chu-nd3{
+        width: 42%;
+        margin-left: 10px;
+    }
+    .phantram1 h1{
+        color: red;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .phantram1 p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .phantram2 h1{
+        color: red;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .phantram2 p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .phantram3 h1{
+        color: red;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .phantram3 p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .phantram1{
+        padding-top: 23px;
+    }
+    .phantram2{
+        padding-top: 36px;
+    }
+    .phantram3{
+        padding-top: 41px;
+    }
+}

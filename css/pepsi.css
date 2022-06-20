@@ -1,0 +1,58 @@
+.nd1 {
+    display: flex;
+    margin: 0 0 130px 0;
+}
+
+.anh {
+    width: 30%;
+    margin-left: 15%;
+}
+
+.anh img {
+    padding-top: 48px;
+}
+
+.thongso {
+    width: 30%;
+    margin-left: 8%;
+}
+
+.thongso h1 {
+    text-align: center;
+    color: red;
+    font-family: system-ui
+}
+
+@media screen and (max-width: 768px) {
+    .nd1 {
+        flex-direction: column;
+    }
+
+    .anh img {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .anh {
+        margin: auto;
+        width: 30%;
+    }
+
+    .thongso {
+        width: 80%;
+        padding-top: 20px;
+    }
+}
+
+.anh img:hover{
+    transform: scale(1.1);
+}
+
+td{
+    font-style: italic;
+}
+
+aside{
+    padding-left: 4%;
+    padding-top: 2%;
+}
